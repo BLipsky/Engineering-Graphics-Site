@@ -11,12 +11,20 @@
     background-color: green;
 }
 .part1 {
-    margin-top:2vw;
+    margin-top:1.75vw;
     margin-bottom: 3vw;
     margin-left: 1vw;
 
 }
 .part2 {
-    margin-top:2vw;
+    margin-top:1.75vw;
     margin-bottom: 3vw;
+}
+.left {
+    margin-left: 2.5vw;
+    margin-top: 5vw;
+}
+.car {
+    margin-top: 3vw;
+    height: 20vw;
 }
