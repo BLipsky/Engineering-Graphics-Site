@@ -1,14 +1,42 @@
 .red {
-  background-color: red;
+  background-image: linear-gradient(
+    #ffffff,
+    hsl(0, 0%, 87%),
+    #bebebe
+  ); 
+  border-bottom: .5vw solid black;
 }
 .yellow {
-  background-color: yellow;
+  background-image: linear-gradient(
+    #ffffff,
+    hsl(0, 0%, 87%),
+    #bebebe
+  ); 
+  border-bottom: .5vw solid black;
+
 }
 .blue {
-  background-color: blue;
+  background-image: linear-gradient(
+    #ffffff,
+    hsl(0, 0%, 87%),
+    #bebebe
+  ); 
+  border-bottom: .5vw solid black;
+
 }
 .green {
   background-color: green;
+}
+.orange {
+  background-color: orange;
+  margin-left: 1vw;
+}
+.placeholder1 {
+  width: 20vw;
+  height: 35vw;
+  border: .25rem solid black;
+  padding: 1vw;
+  margin-left: -.7vw;
 }
 .part1 {
   margin-top: 1.75vw;
@@ -31,7 +59,11 @@
 padding-top: vw;
 }
 
-
+.mlogo {
+  width: 7rem;
+  padding-left: 2rem;
+  padding-top: .75rem;
+}
 .stickysituation {
     position: fixed;
     width: 100%; 
@@ -56,11 +88,11 @@ nav {
 }
 nav.top-bar-wrap {
     background-image: linear-gradient(
-        rgb(0, 0, 160),
-        rgb(21, 27, 114),
-        rgb(16, 31, 70)
+        #408ED7,
+        #3778b4,
+        #295883
       ); 
-      border-bottom: .25vw solid rgb(0, 0, 0);
+      border-bottom: .01vw solid rgb(255, 255, 255);
       box-shadow: 0vw 0vw 2vw 2vw rgb(240, 240, 240);
 }
 
@@ -75,11 +107,16 @@ nav.top-bar-wrap {
 }
 
 nav.main-nav-wrap {
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(161, 161, 161));
   font-size: 1.25rem;
   width: 100vw;
   text-align: center;
   padding-left: 20vw;
+  background-image: linear-gradient(
+    #408ED7,
+    #3778b4,
+    #295883
+  ); 
+
 }
 
 nav.top-bar-wrap ul,
@@ -153,18 +190,18 @@ a .inner-link {
 .brand-logo {
   left: -30px;
   padding-left: 70px;
-  background-image: linear-gradient(rgb(0, 0, 0), rgb(100, 100, 100));
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(100, 54, 10));
   border-right: 2px solid rgb(0, 0, 0);
-  box-shadow: -2vw -2vw 3vw .25vw white;
+  box-shadow: -2vw -2vw 3vw .25vw rgb(255, 205, 159);
 }
 .brand-phone {
   right: 0;
   right: -30px;
   padding-right: 70px;
   background-image: linear-gradient(
-    rgb(0, 0, 160),
-    rgb(21, 27, 114),
-    rgb(16, 31, 70)
+    #408ED7,
+    #2b5e8d,
+    #1f4263
   );
   border-left: 3px solid rgb(0, 0, 0);
   box-shadow: 0vw -2vw 3vw .25vw white;
