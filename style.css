@@ -1,36 +1,35 @@
 .red {
-  background-image: linear-gradient(
-    #ffffff,
-    hsl(0, 0%, 87%),
-    #bebebe
-  ); 
+  background-image: linear-gradient(#ffffff,
+      hsl(0, 0%, 87%),
+      #bebebe);
   border-bottom: .5vw solid black;
 }
+
 .yellow {
-  background-image: linear-gradient(
-    #ffffff,
-    hsl(0, 0%, 87%),
-    #bebebe
-  ); 
+  background-image: linear-gradient(#ffffff,
+      hsl(0, 0%, 87%),
+      #bebebe);
   border-bottom: .5vw solid black;
 
 }
+
 .blue {
-  background-image: linear-gradient(
-    #ffffff,
-    hsl(0, 0%, 87%),
-    #bebebe
-  ); 
+  background-image: linear-gradient(#ffffff,
+      hsl(0, 0%, 87%),
+      #bebebe);
   border-bottom: .5vw solid black;
 
 }
+
 .green {
   background-color: green;
 }
+
 .orange {
   background-color: orange;
   margin-left: 1vw;
 }
+
 .placeholder1 {
   width: 20vw;
   height: 35vw;
@@ -38,25 +37,30 @@
   padding: 1vw;
   margin-left: -.7vw;
 }
+
 .part1 {
   margin-top: 1.75vw;
   margin-bottom: 3vw;
   margin-left: 1vw;
 }
+
 .part2 {
   margin-top: 1.75vw;
   margin-bottom: 3vw;
 }
+
 .left {
   margin-left: 2.5vw;
   margin-top: 5vw;
 }
+
 .car {
   margin-top: 3vw;
   height: 20vw;
 }
+
 .top {
-padding-top: vw;
+  padding-top: vw;
 }
 
 .mlogo {
@@ -64,15 +68,18 @@ padding-top: vw;
   padding-left: 2rem;
   padding-top: .75rem;
 }
+
 .stickysituation {
-    position: fixed;
-    width: 100%; 
-    z-index: 9999; 
-  }
-  .bg-hero-image {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.bg-hero-image {
   background-image: url("logo.");
   background-position: center center;
 }
+
 .top-bar .nav-item {
   padding-left: 2vw;
   display: inline-block;
@@ -81,19 +88,19 @@ padding-top: vw;
 nav {
   padding: 0px;
 }
+
 .line {
-    background-color: rgb(0, 0, 0);
-    height: 2px;
-    box-shadow: 0vw 1vw 7vw 2vw black;
+  background-color: rgb(0, 0, 0);
+  height: 2px;
+  box-shadow: 0vw 1vw 7vw 2vw black;
 }
+
 nav.top-bar-wrap {
-    background-image: linear-gradient(
-        #408ED7,
-        #3778b4,
-        #295883
-      ); 
-      border-bottom: .01vw solid rgb(255, 255, 255);
-      box-shadow: 0vw 0vw 2vw 2vw rgb(240, 240, 240);
+  background-image: linear-gradient(#408ED7,
+      #3778b4,
+      #295883);
+  border-bottom: .01vw solid rgb(255, 255, 255);
+  box-shadow: 0vw 0vw 2vw 2vw rgb(240, 240, 240);
 }
 
 .top-bar-wrap {
@@ -111,11 +118,9 @@ nav.main-nav-wrap {
   width: 100vw;
   text-align: center;
   padding-left: 20vw;
-  background-image: linear-gradient(
-    #408ED7,
-    #3778b4,
-    #295883
-  ); 
+  background-image: linear-gradient(#408ED7,
+      #3778b4,
+      #295883);
 
 }
 
@@ -194,59 +199,96 @@ a .inner-link {
   border-right: 2px solid rgb(0, 0, 0);
   box-shadow: -2vw -2vw 3vw .25vw rgb(255, 205, 159);
 }
+
 .brand-phone {
   right: 0;
   right: -30px;
   padding-right: 70px;
-  background-image: linear-gradient(
-    #408ED7,
-    #2b5e8d,
-    #1f4263
-  );
+  background-image: linear-gradient(#408ED7,
+      #2b5e8d,
+      #1f4263);
   border-left: 3px solid rgb(0, 0, 0);
   box-shadow: 0vw -2vw 3vw .25vw white;
 
 }
+
 .pad {
   text-shadow: 0vw 0vw 1vw rgb(255, 135, 55);
   font-weight: 300px;
 }
+
 .new {
   text-align: center;
 }
 
 
-/* desktop css start */ 
+/* desktop css start */
 .card.custom-card {
-  background-color: rgb(248, 79, 17); 
+  background-color: rgb(248, 79, 17);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 1.25rem; 
-  border-radius: 0.375rem; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  padding: 1.25rem;
+  border-radius: 0.375rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card.custom-card:hover {
-  transform: translateY(-0.25rem); 
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.404); 
 
-.card .custom-svg {
-  width: 2.5rem; 
-  height: 2.5rem; 
-  background-color: #6c757d; 
-  color: #e9ecef; 
-  border-radius: 50%; 
-  padding: 0.25rem; 
+.card.custom-card:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.404);
+
+  .card .custom-svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #6c757d;
+    color: #e9ecef;
+    border-radius: 50%;
+    padding: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card .card-text {
+    font-size: 0.875rem;
+    color: #adb5bd;
+  }
+
+  .card .card-body {
+    padding: 0;
+  }
+}
+
+/* desktop css end */
+
+
+/* desktop 3 gallery css start */
+.gallery-image {
+  border: 2px solid #ddd;
+  /* Border around the images */
+  padding: 5px;
+  /* Padding inside the border */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Soft shadow for visual effect */
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  /* Slight zoom on hover */
+}
+
+/* Add space between rows */
+.row {
+  margin-bottom: 30px;
+}
+
+/* Make sure images do not overflow */
+.col-4 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* Center images inside their columns */
 }
 
-.card .card-text {
-  font-size: 0.875rem; 
-  color: #adb5bd; 
-}
-
-.card .card-body {
-  padding: 0;
-}
-}
-/* desktop css end */
+/* desktop 3 gallery css end */
