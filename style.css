@@ -80,10 +80,13 @@
 }
 
 .left {
-  margin-left: 2.5vw;
+  margin-left: 0vw;
   margin-top: 5vw;
+  margin-right: -5vw;
 }
-
+.red {
+  border-right: .15rem solid black;
+}
 .car {
   margin-top: 3vw;
   height: 20vw;
