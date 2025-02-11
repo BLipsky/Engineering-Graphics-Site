@@ -292,3 +292,14 @@ a .inner-link {
 }
 
 /* desktop 3 gallery css end */
+
+/* desktop 2 block quote start */
+blockquote {
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgba(199, 76, 4, 0.952),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+}
+
+/* desktop 2 block quote end */
