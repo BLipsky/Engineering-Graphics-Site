@@ -18,7 +18,6 @@
   border-bottom: .5vw solid black;
 
 }
-
 .blue {
   background-image: linear-gradient(#ffffff,
       hsl(0, 0%, 87%),
@@ -30,7 +29,6 @@
 .green {
   background-color: rgb(88, 88, 88);
 }
-
 .orange {
   background-color: orange;
   margin-left: 1vw;
