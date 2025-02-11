@@ -22,28 +22,54 @@
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(88, 88, 88);
 }
 
 .orange {
   background-color: orange;
   margin-left: 1vw;
+  border: .15rem solid black;
+  height: 21vw;
 }
-
+.orange2 {
+  background-color: orange;
+  margin-left: 0vw;
+  border: .15rem solid black;
+}
+.txt {
+  padding: .5vw;
+  color: white;
+  height: 18vw;
+  padding-bottom: 0vw;
+  font-weight: lighter;
+}
+.lblue {
+  background-color: #408ED7;
+  margin-left: 0vw;
+  border: .15rem solid black;
+  margin-top: -1vw;
+  font-size: 1.4vw;
+  text-align: center;
+}
 .placeholder1 {
-  width: 20vw;
-  height: 35vw;
-  border: .25rem solid black;
-  padding: 1vw;
-  margin-left: -.7vw;
+  border: .15rem solid black;
 }
-
+.placeholder2 {
+  border: .15rem solid black;
+  background-image: url("placeholder.jpg");
+  height: 8vw;
+  background-position: center;
+  background-size: cover;
+}
 .part1 {
   margin-top: 1.75vw;
   margin-bottom: 3vw;
   margin-left: 1vw;
 }
-
+#d1 {
+  height: 0vw;
+  padding: -5vw;
+}
 .part2 {
   margin-top: 1.75vw;
   margin-bottom: 3vw;
@@ -58,7 +84,15 @@
   margin-top: 3vw;
   height: 20vw;
 }
-
+.img1 {
+  background-image: url("placeholder.jpg");
+  margin-top: .25vw;
+  margin-bottom: .25vw;
+  margin-left: -.25vw;
+  margin-right: -.25vw;
+  height: 20vw;
+  background-position: center;
+}
 .top {
   padding-top: vw;
 }
@@ -68,7 +102,10 @@
   padding-left: 2rem;
   padding-top: .75rem;
 }
-
+.back {
+  width: 100%;
+  margin-left: -.5rem;
+}
 .stickysituation {
   position: fixed;
   width: 100%;
