@@ -104,6 +104,46 @@
   padding-top: vw;
 }
 
+@keyframes moveLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100vw); /* Move left */
+  }
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100vw); /* Move right */
+  }
+}
+
+.lefty, .righty {
+  height: 48vw;
+  width: 100px; /* Ensuring visibility */
+  background-image: url("metal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* Fix for movement */
+}
+
+.lefty.move {
+  animation: moveLeft 15s linear forwards;
+}
+
+.righty.move {
+  animation: moveRight 15s linear forwards;
+}
+
+.full {
+  margin-left: 0vw;
+  padding: 0vw;
+}
 .mlogo {
   width: 7rem;
   padding-left: 2rem;
