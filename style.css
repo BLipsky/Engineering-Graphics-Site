@@ -16,7 +16,7 @@
       hsl(0, 0%, 87%),
       #bebebe);
   border-bottom: .5vw solid black;
-
+  padding-left: 5vw;
 }
 .blue {
   background-image: linear-gradient(#ffffff,
@@ -68,7 +68,10 @@
 .part1 {
   margin-top: 1.75vw;
   margin-bottom: 3vw;
-  margin-left: 1vw;
+  margin-left: 50vw;
+}
+.p {
+  width: 5vw;
 }
 #d1 {
   height: 0vw;
@@ -126,6 +129,7 @@
 .perm {
   overflow-x: hidden;
 }
+
 .lefty, .righty {
   height: 200vw;
   width: 100px; /* Ensuring visibility */
@@ -157,7 +161,7 @@
   padding: 0vw;
   z-index: 99999;
   position: sticky;
-  margin-top: -150vw;
+  margin-top: -300vw;
 }
 .mlogo {
   width: 7rem;
