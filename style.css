@@ -121,28 +121,43 @@
     transform: translateX(100vw); /* Move right */
   }
 }
-
+.temp {
+}
+.perm {
+  overflow-x: hidden;
+}
 .lefty, .righty {
-  height: 48vw;
+  height: 200vw;
   width: 100px; /* Ensuring visibility */
   background-image: url("metal.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative; /* Fix for movement */
 }
-
+.lefty {
+  background-size: cover;
+  background-position: center;
+  border-right: .5vw solid rgb(37, 37, 37);
+}
+.righty {
+  background-size: cover;
+  background-position:right;
+  border-left: .5vw solid rgb(37, 37, 37);
+}
 .lefty.move {
-  animation: moveLeft 15s linear forwards;
+  animation: moveLeft 7s linear forwards;
 }
 
 .righty.move {
-  animation: moveRight 15s linear forwards;
+  animation: moveRight 7s linear forwards;
 }
 
 .full {
   margin-left: 0vw;
   padding: 0vw;
+  z-index: 99999;
+  position: sticky;
+  margin-top: -150vw;
 }
 .mlogo {
   width: 7rem;
