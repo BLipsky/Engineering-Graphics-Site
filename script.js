@@ -8,3 +8,8 @@ document.addEventListener("click", function() {
         document.querySelector(".temp").classList.remove("temp");
     }, 7000);
 });
+    var myCarousel = document.querySelector('#carouselExampleIndicators');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 2000,
+        wrap: true
+    });
