@@ -306,7 +306,13 @@
 
 .top-bar .nav-item {
   padding-left: 2vw;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  /* Change from column to row */
+  justify-content: center;
+  /* Adjust alignment if necessary */
+  gap: 15px;
+  /* Add spacing between items */
 }
 
 nav {
