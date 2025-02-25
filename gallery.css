@@ -12,6 +12,14 @@
     /* Bootstrap default to keep navbar above content */
 }
 
+.container {
+    margin-top: 120px;
+}
+
+.mar {
+    margin-bottom: 30px;
+}
+
 
 .red {
     background-image: linear-gradient(#ffffff,
