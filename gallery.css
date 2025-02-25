@@ -1,8 +1,17 @@
-.bungee-regular {
-    font-family: "Bungee", serif;
-    font-weight: 400;
-    font-style: normal;
+.body {
+    padding-top: 80px;
+    /* Adjust based on your navbar height */
 }
+
+.fixed-top {
+    height: 80px;
+    /* Adjust as needed */
+    background-color: white;
+    /* Ensure it remains visible */
+    z-index: 1030;
+    /* Bootstrap default to keep navbar above content */
+}
+
 
 .red {
     background-image: linear-gradient(#ffffff,
@@ -37,12 +46,16 @@
 
 }
 
-<<<<<<< HEAD=======.free {
+.free {
     height: 23rem;
-    width: 99%;
+    width: 25rem;
     border: .15rem solid black;
     margin: .25vw;
 
+}
+
+.newgen {
+    width: 40%;
 }
 
 .greeny {
@@ -65,7 +78,7 @@
 
 }
 
->>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .orange {
+.orange {
     background-color: orange;
     margin-left: 1vw;
     border: .15rem solid black;
@@ -112,7 +125,7 @@
     background-size: cover;
 }
 
-<<<<<<< HEAD .free {
+.free {
     height: 23rem;
     width: 100%;
     padding-left: .25vw;
@@ -121,7 +134,7 @@
 
 }
 
-=======>>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .part1 {
+.part1 {
     margin-top: 1.75vw;
     margin-bottom: 3vw;
     margin-left: 5vw;
@@ -151,12 +164,12 @@
     border-right: .15rem solid black;
 }
 
-<<<<<<< HEAD .car {
+car {
     margin-top: 3vw;
     height: 20vw;
 }
 
-=======>>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .img1 {
+.img1 {
     background-image: url("placeholder.jpg");
     margin-top: .25vw;
     margin-bottom: .25vw;
@@ -165,6 +178,26 @@
     height: 20vw;
     background-position: center;
 }
+
+.redy {}
+
+.bluey {
+    background-color: rgb(17, 0, 255);
+
+}
+
+.yellowy {
+    background-color: rgb(238, 255, 0);
+
+}
+
+.greenyy {
+    background-color: green;
+}
+
+
+
+
 
 .top {
     padding-top: vw;
@@ -192,8 +225,6 @@
     }
 }
 
-<<<<<<< HEAD .temp {}
-
 .perm {
     overflow-x: hidden;
 }
@@ -216,7 +247,7 @@
     border-right: .5vw solid rgb(37, 37, 37);
 }
 
-=======.lefty {
+.lefty {
     background-image: url("metal.jpg");
     background-size: cover;
     background-position: center;
@@ -225,15 +256,14 @@
     left: 0;
 }
 
->>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .righty {
+.righty {
     background-image: url("metal.jpg");
     background-size: cover;
     background-position: right;
-    <<<<<<< HEAD border-left: .5vw solid rgb(37, 37, 37);
-    =======border-left: 0.5vw solid rgb(37, 37, 37);
+    border-left: .5vw solid rgb(37, 37, 37);
+    border-left: 0.5vw solid rgb(37, 37, 37);
     height: 200vw;
     right: 0;
-    >>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746
 }
 
 .lefty.move {
@@ -339,8 +369,9 @@ nav.top-bar-wrap {
 }
 
 .main-nav-wrap {
-    height: 80px;
-    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
 }
 
 nav.main-nav-wrap {
@@ -500,233 +531,33 @@ a .inner-link {
 
 /* desktop css end */
 
-
-/* desktop 3 gallery css start */
-.gallery-image {
-    border: 2px solid #ddd;
-    /* Border around the images */
-    padding: 5px;
-    /* Padding inside the border */
-    border-radius: 8px;
-    /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Soft shadow for visual effect */
-    transition: transform 0.3s ease;
-    /* Smooth transition for hover effect */
-}
-
-.gallery-image:hover {
-    transform: scale(1.05);
-    /* Slight zoom on hover */
-}
-
-/* Add space between rows */
-.row {
-    margin-bottom: 30px;
-}
-
-/* Make sure images do not overflow */
-.col-4 {
-    display: flex;
-    justify-content: center;
-    /* Center images inside their columns */
-}
-
-/* desktop 3 gallery css end */
-
-/* incoming freshman and level 2 section start */
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-h1 {
-    font-size: 2.5rem;
-    font-family: 'Montserrat';
-    font-weight: normal;
-    color: #444;
-    text-align: center;
-    margin: 2rem 0;
-}
-
-.wrapper {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 80rem;
-}
-
-.cols {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-.col {
-    width: calc(25% - 2rem);
-    margin: 1rem;
-    cursor: pointer;
-}
-
-.container {
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-}
-
-.front,
-.back {
-    background-size: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    background-position: center;
-    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    text-align: center;
-    min-height: 280px;
-    height: auto;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-.back {
-    background: #cedce7;
-    background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-}
-
-.front:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    content: '';
-    display: block;
-    opacity: .6;
-    background-color: #000;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 10px;
-}
-
-.container:hover .front,
-.container:hover .back {
-    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-}
-
-.back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.inner {
-    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
-    transform: translateY(-50%) translateZ(60px) scale(0.94);
-    top: 50%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 2rem;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: 1px solid transparent;
-    -webkit-perspective: inherit;
-    perspective: inherit;
-    z-index: 2;
-}
-
-.container .back {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.container .front {
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.container:hover .back {
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.container:hover .front {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.front .inner p {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+/* gallery overlay css start */
+.image-container {
     position: relative;
+    display: inline-block;
 }
 
-.front .inner p:after {
-    content: '';
-    width: 4rem;
-    height: 2px;
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overlay {
     position: absolute;
-    background: #C6D4DF;
-    display: block;
+    bottom: 0;
     left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: -.75rem;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.front .inner span {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Montserrat';
-    font-weight: 300;
+.image-container:hover .overlay {
+    opacity: 1;
 }
 
-@media screen and (max-width: 64rem) {
-    .col {
-        width: calc(33.333333% - 2rem);
-    }
-}
-
-@media screen and (max-width: 48rem) {
-    .col {
-        width: calc(50% - 2rem);
-    }
-}
-
-@media screen and (max-width: 32rem) {
-    .col {
-        width: 100%;
-        margin: 0 0 2rem 0;
-    }
-}
-
-/* incoming freshman and level 2 css end */
+/* gallery overlay css end */
