@@ -14,12 +14,42 @@
 
 .container {
     margin-top: 120px;
+    margin-bottom: 90px;
 }
 
-.mar {
-    margin-bottom: 30px;
+
+
+/* banner css start */
+
+.banner {
+    padding: 100px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 5px solid #ccc;
+    background-color: rgb(18, 18, 99);
+    margin-top: 120px;
+    margin-bottom: 0;
+
+
+    h1,
+    h2 {
+        line-height: 1;
+        margin: 0;
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 75px;
+        @include longshadow(darken($color, 5%));
+    }
+
+    h2 {
+        font-size: 40px;
+        @include longshadow(darken($color, 8%));
+    }
 }
 
+/* banner css end */
 
 .red {
     background-image: linear-gradient(#ffffff,
