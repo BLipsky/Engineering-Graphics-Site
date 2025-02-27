@@ -1,19 +1,3 @@
-document.addEventListener("click", function () {
-    document.querySelector(".lefty").classList.add("move");
-    document.querySelector(".righty").classList.add("move");
-});
-
-document.addEventListener("click", function () {
-    setTimeout(function () {
-        document.querySelector(".temp").classList.remove("temp");
-    }, 7000);
-});
-var myCarousel = document.querySelector('#carouselExampleIndicators');
-var carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 2000,
-    wrap: true
-});
-
 
 // gallery js start 
 $('.gallery ul li a').click(function () {
@@ -33,3 +17,27 @@ $(".gallery ul li a").click(function () {
     }, 400);
 });
 // gallery js end 
+
+function calculateScore() {
+    let score = 0;
+    const questions = ["q1", "q2", "q3", "q4", "q5", "q6"];
+
+    questions.forEach(q => {
+        const answer = document.querySelector(`input[name=${q}]:checked`);
+        if (answer && answer.value === "yes") {
+            score++;
+        }
+    });
+
+    let resultText = "";
+    if (score >= 5) {
+        resultText = "You're a great fit for Engineering Graphics!";
+    } else if (score >= 3) {
+        resultText = "You might enjoy Engineering Graphics!";
+    } else if (score >= 1){
+        resultText = "Engineering Graphics may not be your thing, but you never know until you try!";
+    } else {
+    resultText = "Please Input Your Answers!";
+    }
+    document.getElementById("result").textContent = resultText;
+}

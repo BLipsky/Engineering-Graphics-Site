@@ -266,10 +266,33 @@ car {
   border: .2vw solid black;
   margin: 1.5vw;
 }
-
+.imgy {
+  height: 40vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: .5vw solid black;
+  margin: 1.5vw;
+  border-radius: 2vw;
+  box-shadow: 0vw 0vw 3vw .5vw rgb(161, 161, 161);
+}
 .bluey {
   background-color: rgb(17, 0, 255);
 }
+
+.heady {
+  background-color: orange;
+  height: 7vw;
+  margin-top: -1.9rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0vw 0vw 1vw rgb(255, 255, 255);
+  border-bottom: .3vw solid black;
+  border-top: .3vw solid black;
+  box-shadow: 0vw 0vw 3vw .5vw rgb(119, 119, 119);
+}
+
+
 
 
 .yellowy {
@@ -278,9 +301,67 @@ car {
 
 
 }
-
+.newyy {
+  text-align: center;
+}
 .greenyy {
   background-color: rgb(255, 255, 255);
+}
+
+
+
+.quiz-container {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.question {
+  margin: 15px 0;
+  text-align: center;
+  border: .25vw solid black;
+  border-radius: 2vw;
+  padding: 1vw;
+  background: #539ae6;
+  color: white;
+  box-shadow: 0vw 0vw 1vw .1vw rgb(90, 90, 90);
+
+}
+
+label {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submit-btn {
+  background: #ffb325dc;
+  color: white;
+  border: none;
+  padding: 1.5vw;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10vw;
+  margin-top: 10px;
+  width: 30%;
+  border: .25vw solid black;
+
+}
+
+.submit-btn:hover {
+  background: #c49c19;
+}
+
+.result-container {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #539ae6;
+  color: white;
+  padding: 1vw;
+  border-radius: 2vw;
+  border: .25vw solid black;
 }
 
 
@@ -288,12 +369,8 @@ car {
 
 
 
-
-
-
-
 .top {
-  padding-top: vw;
+  width: 10%;
 }
 
 
@@ -1021,6 +1098,55 @@ h1 {
   background-color: #33353d
 }
 
+
+.table-container {
+  margin-left: auto; /* This ensures margin on the left */
+  margin-right: auto; /* This ensures margin on the right */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.unit-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 24px;
+}
+
+.unit-table th, .unit-table td {
+  padding: 12px 15px;
+  border: 3px solid #d1d1d1;
+}
+
+.unit-table th {
+  background-color: #f8b400;
+  color: white;
+}
+
+.unit-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.unit-table tr:hover {
+  background-color: #e8e8e8;
+}
+
+/* Style for the unit goals list */
+.unit-table ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.unit-table li {
+  margin-bottom: 8px;
+}
+
+
+
+
 .copyright-text {
   margin: 0
 }
@@ -1118,4 +1244,72 @@ h1 {
 .footholder {
   padding: 0;
   margin-left: -10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styling */
+.footer {
+  background-color: #378af8;
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+  border-top: .25vw solid black;
+
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.footer-section h2, .footer-section h3 {
+  color: #f8b400;
+}
+
+.footer-section p, .footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section a:hover {
+  color: #f8b400;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
 }

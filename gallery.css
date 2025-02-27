@@ -25,8 +25,8 @@
     padding: 100px;
     text-align: center;
     overflow: hidden;
-    border-bottom: 5px solid #ccc;
-    background-color: rgb(0, 0, 0);
+    border-bottom: 5px solid #000000;
+    background-color: rgb(211, 120, 16);
     margin-top: 120px;
     margin-bottom: 0;
 
@@ -602,3 +602,232 @@ a .inner-link {
 }
 
 /* gallery overlay css end */
+
+
+nav {
+    padding: 0px;
+  }
+  
+  
+  .line {
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    box-shadow: 0vw 1vw 7vw 2vw black;
+  }
+  
+  
+  nav.top-bar-wrap {
+    background-image: linear-gradient(#408ED7,
+        #3778b4,
+        #295883);
+    border-bottom: .01vw solid rgb(255, 255, 255);
+    box-shadow: 0vw 0vw 2vw 2vw rgb(240, 240, 240);
+  }
+  
+  
+  .top-bar-wrap {
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  
+  .main-nav-wrap {
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  
+  nav.main-nav-wrap {
+    font-size: 1.25rem;
+    width: 100vw;
+    text-align: center;
+    padding-left: 20vw;
+    background-image: linear-gradient(#408ED7,
+        #3778b4,
+        #295883);
+  
+  
+  }
+  
+  
+  nav.top-bar-wrap ul,
+  nav.main-nav-wrap ul {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  
+  a.nav-link:hover {
+    background: rgba(0, 0, 0, 0.507);
+    color: #fff;
+    border-left: 12px solid rgba(77, 43, 43, 0.3);
+  }
+  
+  
+  a.nav-link {
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+    transform: skew(-25deg);
+    transition: all 400ms ease-out;
+  }
+  
+  
+  a .inner-link {
+    display: inline-block;
+    transform: skew(25deg);
+  }
+  
+  
+  .nav-link {
+    padding: 0px;
+  }
+  
+  
+  .top-bar-wrap a {
+    padding-left: 12px;
+  }
+  
+  
+  .main-nav-wrap a {
+    padding-left: 18px;
+  }
+  
+  
+  .brand-logo img {
+    height: 110px;
+  
+  
+    transform: skew(25deg);
+  }
+  
+  
+  .brand-phone a {
+    display: block;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 2px;
+    height: 0px;
+    line-height: 1.5em;
+    text-shadow: 0vw 0vw 1vw rgb(255, 124, 37);
+    transform: skew(25deg);
+    font-family: "Comic Sans MS", cursive;
+  }
+  
+  
+  .brand-phone,
+  .brand-logo {
+    padding-right: 5vw;
+    padding-top: 0.5vw;
+    position: absolute;
+    top: 0;
+    height: 120px;
+    transform: skewX(-25deg);
+  }
+  
+  
+  .inav {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 3.5rem;
+    height: 8vw;
+    color: white;
+    text-shadow: 0vw 0vw 1vw rgb(107, 165, 231);
+    padding-top: 2rem;
+  
+  
+  }
+  
+  
+  .brand-logo {
+    left: -30px;
+    padding-left: 70px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(100, 54, 10));
+    border-right: 2px solid rgb(0, 0, 0);
+    box-shadow: -2vw -2vw 3vw .25vw rgb(255, 205, 159);
+  }
+  
+  
+  .brand-phone {
+    right: 0;
+    right: -30px;
+    padding-right: 70px;
+    background-image: linear-gradient(#408ED7,
+        #2b5e8d,
+        #1f4263);
+    border-left: 3px solid rgb(0, 0, 0);
+    box-shadow: 0vw -2vw 3vw .25vw white;
+  
+  
+  }
+  
+  
+  .pad {
+    text-shadow: 0vw 0vw 1vw rgb(255, 135, 55);
+    font-weight: 300px;
+  }
+  
+  
+  .new {
+    text-align: center;
+  }
+  
+  /* Footer Styling */
+.footer {
+    background-color: #378af8;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    border-top: .25vw solid black;
+    
+  }
+  
+  .footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+  }
+  
+  .footer-section h2, .footer-section h3 {
+    color: #f8b400;
+  }
+  
+  .footer-section p, .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-section a:hover {
+    color: #f8b400;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+  }
+  

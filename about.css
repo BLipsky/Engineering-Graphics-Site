@@ -36,8 +36,7 @@
     box-shadow: 0vw 0vw 1vw .1vw #7c7c7c;
 
 }
-
-<<<<<<< HEAD=======.free {
+.free {
     height: 23rem;
     width: 99%;
     border: .15rem solid black;
@@ -64,8 +63,7 @@
     border-radius: .25vw;
 
 }
-
->>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .orange {
+ .orange {
     background-color: orange;
     margin-left: 1vw;
     border: .15rem solid black;
@@ -112,7 +110,7 @@
     background-size: cover;
 }
 
-<<<<<<< HEAD .free {
+ .free {
     height: 23rem;
     width: 100%;
     padding-left: .25vw;
@@ -121,7 +119,7 @@
 
 }
 
-=======>>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .part1 {
+.part1 {
     margin-top: 1.75vw;
     margin-bottom: 3vw;
     margin-left: 5vw;
@@ -151,12 +149,12 @@
     border-right: .15rem solid black;
 }
 
-<<<<<<< HEAD .car {
+ .car {
     margin-top: 3vw;
     height: 20vw;
 }
 
-=======>>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .img1 {
+ .img1 {
     background-image: url("placeholder.jpg");
     margin-top: .25vw;
     margin-bottom: .25vw;
@@ -192,7 +190,6 @@
     }
 }
 
-<<<<<<< HEAD .temp {}
 
 .perm {
     overflow-x: hidden;
@@ -216,7 +213,7 @@
     border-right: .5vw solid rgb(37, 37, 37);
 }
 
-=======.lefty {
+.lefty {
     background-image: url("metal.jpg");
     background-size: cover;
     background-position: center;
@@ -225,15 +222,14 @@
     left: 0;
 }
 
->>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746 .righty {
+ .righty {
     background-image: url("metal.jpg");
     background-size: cover;
     background-position: right;
-    <<<<<<< HEAD border-left: .5vw solid rgb(37, 37, 37);
-    =======border-left: 0.5vw solid rgb(37, 37, 37);
+  border-left: .5vw solid rgb(37, 37, 37);
+    border-left: 0.5vw solid rgb(37, 37, 37);
     height: 200vw;
     right: 0;
-    >>>>>>>4b35044d52fc8472e3c9dc40a6d15b8287809746
 }
 
 .lefty.move {
@@ -294,7 +290,6 @@
 
 }
 
-.block {}
 
 
 
@@ -730,3 +725,59 @@ h1 {
 }
 
 /* incoming freshman and level 2 css end */
+/* Footer Styling */
+.footer {
+    background-color: #378af8;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    border-top: .25vw solid black;
+    
+  }
+  
+  .footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+  }
+  
+  .footer-section h2, .footer-section h3 {
+    color: #f8b400;
+  }
+  
+  .footer-section p, .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-section a:hover {
+    color: #f8b400;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+  }
+  
