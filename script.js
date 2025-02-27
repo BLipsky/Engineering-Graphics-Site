@@ -23,7 +23,7 @@ function calculateScore() {
     const questions = ["q1", "q2", "q3", "q4", "q5", "q6"];
 
     questions.forEach(q => {
-        const answer = document.querySelector(`input[name=${q}]:checked`);
+        const answer = document.querySelector(`input[name="${q}"]:checked`);
         if (answer && answer.value === "yes") {
             score++;
         }
