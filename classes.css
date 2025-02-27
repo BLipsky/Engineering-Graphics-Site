@@ -755,10 +755,13 @@ a {
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-color: black;
+    background-color: orange;
     font-family: "Poppins";
     text-decoration: none;
     color: white;
+    border-top: .15rem solid black;
+    border-bottom: .15rem solid black;
+
 }
 
 .split-section {
